@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150C494A2BDDC87900F4EFF1 /* ConcertConnectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49492BDDC87900F4EFF1 /* ConcertConnectApp.swift */; };
+		150C494C2BDDC87900F4EFF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C494B2BDDC87900F4EFF1 /* ContentView.swift */; };
+		150C494E2BDDC87D00F4EFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C494D2BDDC87D00F4EFF1 /* Assets.xcassets */; };
+		150C49512BDDC87D00F4EFF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150C49502BDDC87D00F4EFF1 /* Preview Assets.xcassets */; };
+		150C495B2BDDC87D00F4EFF1 /* ConcertConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C495A2BDDC87D00F4EFF1 /* ConcertConnectTests.swift */; };
+		150C49652BDDC87D00F4EFF1 /* ConcertConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49642BDDC87D00F4EFF1 /* ConcertConnectUITests.swift */; };
+		150C49672BDDC87D00F4EFF1 /* ConcertConnectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49662BDDC87D00F4EFF1 /* ConcertConnectUITestsLaunchTests.swift */; };
+		150C49782BDF238600F4EFF1 /* ConcertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49772BDF238600F4EFF1 /* ConcertCell.swift */; };
+		150C497A2BDF24E600F4EFF1 /* Concert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49792BDF24E600F4EFF1 /* Concert.swift */; };
+		150C497E2BDF271000F4EFF1 /* ConcertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C497D2BDF271000F4EFF1 /* ConcertViewModel.swift */; };
+		150C49802BDF281C00F4EFF1 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C497F2BDF281C00F4EFF1 /* HomePage.swift */; };
+		150C49822BDF283800F4EFF1 /* ConcertPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49812BDF283800F4EFF1 /* ConcertPage.swift */; };
+		150C49842BDF28E500F4EFF1 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49832BDF28E500F4EFF1 /* MapView.swift */; };
+		150C49862BDF78FD00F4EFF1 /* ConcertList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49852BDF78FD00F4EFF1 /* ConcertList.swift */; };
+		150C498A2BE07F9D00F4EFF1 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49892BE07F9D00F4EFF1 /* AppTabView.swift */; };
+		150C49912BE08FD900F4EFF1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150C49902BE08FD900F4EFF1 /* MessageUI.framework */; };
+		150C49952BE0C7F500F4EFF1 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 150C49942BE0C7F500F4EFF1 /* EventKitUI.framework */; };
+		150C49972BE15EA000F4EFF1 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49962BE15EA000F4EFF1 /* EventEditViewController.swift */; };
+		150C49992BE1A8CE00F4EFF1 /* MessageComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49982BE1A8CE00F4EFF1 /* MessageComposeViewController.swift */; };
+		150C499D2BE1F0B300F4EFF1 /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = 150C499C2BE1F0B300F4EFF1 /* GoogleMaps */; };
+		150C499F2BE1F0B300F4EFF1 /* GoogleMapsBase in Frameworks */ = {isa = PBXBuildFile; productRef = 150C499E2BE1F0B300F4EFF1 /* GoogleMapsBase */; };
+		150C49A12BE1F0B300F4EFF1 /* GoogleMapsCore in Frameworks */ = {isa = PBXBuildFile; productRef = 150C49A02BE1F0B300F4EFF1 /* GoogleMapsCore */; };
+		150C49A32BE1F10200F4EFF1 /* GoogleMapsPrivacy.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 150C49A22BE1F10200F4EFF1 /* GoogleMapsPrivacy.bundle */; };
+		150C49A82BE207A300F4EFF1 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; productRef = 150C49A72BE207A300F4EFF1 /* GooglePlaces */; };
+		150C49AA2BE211AA00F4EFF1 /* MapController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150C49A92BE211AA00F4EFF1 /* MapController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		150C49572BDDC87D00F4EFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150C493E2BDDC87900F4EFF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150C49452BDDC87900F4EFF1;
+			remoteInfo = ConcertConnect;
+		};
+		150C49612BDDC87D00F4EFF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150C493E2BDDC87900F4EFF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150C49452BDDC87900F4EFF1;
+			remoteInfo = ConcertConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150C49462BDDC87900F4EFF1 /* ConcertConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcertConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C49492BDDC87900F4EFF1 /* ConcertConnectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertConnectApp.swift; sourceTree = "<group>"; };
+		150C494B2BDDC87900F4EFF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		150C494D2BDDC87D00F4EFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150C49502BDDC87D00F4EFF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		150C49562BDDC87D00F4EFF1 /* ConcertConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcertConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C495A2BDDC87D00F4EFF1 /* ConcertConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertConnectTests.swift; sourceTree = "<group>"; };
+		150C49602BDDC87D00F4EFF1 /* ConcertConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcertConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		150C49642BDDC87D00F4EFF1 /* ConcertConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertConnectUITests.swift; sourceTree = "<group>"; };
+		150C49662BDDC87D00F4EFF1 /* ConcertConnectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertConnectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		150C49772BDF238600F4EFF1 /* ConcertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertCell.swift; sourceTree = "<group>"; };
+		150C49792BDF24E600F4EFF1 /* Concert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concert.swift; sourceTree = "<group>"; };
+		150C497D2BDF271000F4EFF1 /* ConcertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertViewModel.swift; sourceTree = "<group>"; };
+		150C497F2BDF281C00F4EFF1 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		150C49812BDF283800F4EFF1 /* ConcertPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertPage.swift; sourceTree = "<group>"; };
+		150C49832BDF28E500F4EFF1 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		150C49852BDF78FD00F4EFF1 /* ConcertList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcertList.swift; sourceTree = "<group>"; };
+		150C49892BE07F9D00F4EFF1 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
+		150C498C2BE08F3C00F4EFF1 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		150C498E2BE08F4400F4EFF1 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		150C49902BE08FD900F4EFF1 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		150C49942BE0C7F500F4EFF1 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		150C49962BE15EA000F4EFF1 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
+		150C49982BE1A8CE00F4EFF1 /* MessageComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageComposeViewController.swift; sourceTree = "<group>"; };
+		150C499A2BE1E5C000F4EFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		150C49A22BE1F10200F4EFF1 /* GoogleMapsPrivacy.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleMapsPrivacy.bundle; sourceTree = "<group>"; };
+		150C49A92BE211AA00F4EFF1 /* MapController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150C49432BDDC87900F4EFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C49A12BE1F0B300F4EFF1 /* GoogleMapsCore in Frameworks */,
+				150C49952BE0C7F500F4EFF1 /* EventKitUI.framework in Frameworks */,
+				150C49912BE08FD900F4EFF1 /* MessageUI.framework in Frameworks */,
+				150C49A82BE207A300F4EFF1 /* GooglePlaces in Frameworks */,
+				150C499D2BE1F0B300F4EFF1 /* GoogleMaps in Frameworks */,
+				150C499F2BE1F0B300F4EFF1 /* GoogleMapsBase in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C49532BDDC87D00F4EFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C495D2BDDC87D00F4EFF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150C493D2BDDC87900F4EFF1 = {
+			isa = PBXGroup;
+			children = (
+				150C49A22BE1F10200F4EFF1 /* GoogleMapsPrivacy.bundle */,
+				150C49482BDDC87900F4EFF1 /* ConcertConnect */,
+				150C49592BDDC87D00F4EFF1 /* ConcertConnectTests */,
+				150C49632BDDC87D00F4EFF1 /* ConcertConnectUITests */,
+				150C49472BDDC87900F4EFF1 /* Products */,
+				150C498B2BE08F3C00F4EFF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		150C49472BDDC87900F4EFF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150C49462BDDC87900F4EFF1 /* ConcertConnect.app */,
+				150C49562BDDC87D00F4EFF1 /* ConcertConnectTests.xctest */,
+				150C49602BDDC87D00F4EFF1 /* ConcertConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150C49482BDDC87900F4EFF1 /* ConcertConnect */ = {
+			isa = PBXGroup;
+			children = (
+				150C499A2BE1E5C000F4EFF1 /* Info.plist */,
+				150C49762BDDC8A200F4EFF1 /* Model */,
+				150C49742BDDC88F00F4EFF1 /* ViewModel */,
+				150C49732BDDC88900F4EFF1 /* View */,
+				150C49492BDDC87900F4EFF1 /* ConcertConnectApp.swift */,
+				150C494B2BDDC87900F4EFF1 /* ContentView.swift */,
+				150C494D2BDDC87D00F4EFF1 /* Assets.xcassets */,
+				150C494F2BDDC87D00F4EFF1 /* Preview Content */,
+			);
+			path = ConcertConnect;
+			sourceTree = "<group>";
+		};
+		150C494F2BDDC87D00F4EFF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				150C49502BDDC87D00F4EFF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		150C49592BDDC87D00F4EFF1 /* ConcertConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				150C495A2BDDC87D00F4EFF1 /* ConcertConnectTests.swift */,
+			);
+			path = ConcertConnectTests;
+			sourceTree = "<group>";
+		};
+		150C49632BDDC87D00F4EFF1 /* ConcertConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				150C49642BDDC87D00F4EFF1 /* ConcertConnectUITests.swift */,
+				150C49662BDDC87D00F4EFF1 /* ConcertConnectUITestsLaunchTests.swift */,
+			);
+			path = ConcertConnectUITests;
+			sourceTree = "<group>";
+		};
+		150C49732BDDC88900F4EFF1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150C49772BDF238600F4EFF1 /* ConcertCell.swift */,
+				150C497F2BDF281C00F4EFF1 /* HomePage.swift */,
+				150C49812BDF283800F4EFF1 /* ConcertPage.swift */,
+				150C49832BDF28E500F4EFF1 /* MapView.swift */,
+				150C49852BDF78FD00F4EFF1 /* ConcertList.swift */,
+				150C49892BE07F9D00F4EFF1 /* AppTabView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		150C49742BDDC88F00F4EFF1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				150C497D2BDF271000F4EFF1 /* ConcertViewModel.swift */,
+				150C49962BE15EA000F4EFF1 /* EventEditViewController.swift */,
+				150C49982BE1A8CE00F4EFF1 /* MessageComposeViewController.swift */,
+				150C49A92BE211AA00F4EFF1 /* MapController.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		150C49762BDDC8A200F4EFF1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				150C49792BDF24E600F4EFF1 /* Concert.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		150C498B2BE08F3C00F4EFF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				150C49942BE0C7F500F4EFF1 /* EventKitUI.framework */,
+				150C49902BE08FD900F4EFF1 /* MessageUI.framework */,
+				150C498E2BE08F4400F4EFF1 /* Messages.framework */,
+				150C498C2BE08F3C00F4EFF1 /* EventKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150C49452BDDC87900F4EFF1 /* ConcertConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150C496A2BDDC87D00F4EFF1 /* Build configuration list for PBXNativeTarget "ConcertConnect" */;
+			buildPhases = (
+				150C49422BDDC87900F4EFF1 /* Sources */,
+				150C49432BDDC87900F4EFF1 /* Frameworks */,
+				150C49442BDDC87900F4EFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConcertConnect;
+			packageProductDependencies = (
+				150C499C2BE1F0B300F4EFF1 /* GoogleMaps */,
+				150C499E2BE1F0B300F4EFF1 /* GoogleMapsBase */,
+				150C49A02BE1F0B300F4EFF1 /* GoogleMapsCore */,
+				150C49A72BE207A300F4EFF1 /* GooglePlaces */,
+			);
+			productName = ConcertConnect;
+			productReference = 150C49462BDDC87900F4EFF1 /* ConcertConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		150C49552BDDC87D00F4EFF1 /* ConcertConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150C496D2BDDC87D00F4EFF1 /* Build configuration list for PBXNativeTarget "ConcertConnectTests" */;
+			buildPhases = (
+				150C49522BDDC87D00F4EFF1 /* Sources */,
+				150C49532BDDC87D00F4EFF1 /* Frameworks */,
+				150C49542BDDC87D00F4EFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150C49582BDDC87D00F4EFF1 /* PBXTargetDependency */,
+			);
+			name = ConcertConnectTests;
+			productName = ConcertConnectTests;
+			productReference = 150C49562BDDC87D00F4EFF1 /* ConcertConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		150C495F2BDDC87D00F4EFF1 /* ConcertConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150C49702BDDC87D00F4EFF1 /* Build configuration list for PBXNativeTarget "ConcertConnectUITests" */;
+			buildPhases = (
+				150C495C2BDDC87D00F4EFF1 /* Sources */,
+				150C495D2BDDC87D00F4EFF1 /* Frameworks */,
+				150C495E2BDDC87D00F4EFF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				150C49622BDDC87D00F4EFF1 /* PBXTargetDependency */,
+			);
+			name = ConcertConnectUITests;
+			productName = ConcertConnectUITests;
+			productReference = 150C49602BDDC87D00F4EFF1 /* ConcertConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150C493E2BDDC87900F4EFF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					150C49452BDDC87900F4EFF1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					150C49552BDDC87D00F4EFF1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 150C49452BDDC87900F4EFF1;
+					};
+					150C495F2BDDC87D00F4EFF1 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 150C49452BDDC87900F4EFF1;
+					};
+				};
+			};
+			buildConfigurationList = 150C49412BDDC87900F4EFF1 /* Build configuration list for PBXProject "ConcertConnect" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150C493D2BDDC87900F4EFF1;
+			packageReferences = (
+				150C499B2BE1F0B300F4EFF1 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+				150C49A62BE2021D00F4EFF1 /* XCRemoteSwiftPackageReference "ios-places-sdk" */,
+			);
+			productRefGroup = 150C49472BDDC87900F4EFF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150C49452BDDC87900F4EFF1 /* ConcertConnect */,
+				150C49552BDDC87D00F4EFF1 /* ConcertConnectTests */,
+				150C495F2BDDC87D00F4EFF1 /* ConcertConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150C49442BDDC87900F4EFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C49512BDDC87D00F4EFF1 /* Preview Assets.xcassets in Resources */,
+				150C494E2BDDC87D00F4EFF1 /* Assets.xcassets in Resources */,
+				150C49A32BE1F10200F4EFF1 /* GoogleMapsPrivacy.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C49542BDDC87D00F4EFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C495E2BDDC87D00F4EFF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150C49422BDDC87900F4EFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C49782BDF238600F4EFF1 /* ConcertCell.swift in Sources */,
+				150C49972BE15EA000F4EFF1 /* EventEditViewController.swift in Sources */,
+				150C494C2BDDC87900F4EFF1 /* ContentView.swift in Sources */,
+				150C497E2BDF271000F4EFF1 /* ConcertViewModel.swift in Sources */,
+				150C497A2BDF24E600F4EFF1 /* Concert.swift in Sources */,
+				150C49802BDF281C00F4EFF1 /* HomePage.swift in Sources */,
+				150C49862BDF78FD00F4EFF1 /* ConcertList.swift in Sources */,
+				150C494A2BDDC87900F4EFF1 /* ConcertConnectApp.swift in Sources */,
+				150C49992BE1A8CE00F4EFF1 /* MessageComposeViewController.swift in Sources */,
+				150C49842BDF28E500F4EFF1 /* MapView.swift in Sources */,
+				150C49822BDF283800F4EFF1 /* ConcertPage.swift in Sources */,
+				150C49AA2BE211AA00F4EFF1 /* MapController.swift in Sources */,
+				150C498A2BE07F9D00F4EFF1 /* AppTabView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C49522BDDC87D00F4EFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C495B2BDDC87D00F4EFF1 /* ConcertConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		150C495C2BDDC87D00F4EFF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150C49672BDDC87D00F4EFF1 /* ConcertConnectUITestsLaunchTests.swift in Sources */,
+				150C49652BDDC87D00F4EFF1 /* ConcertConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		150C49582BDDC87D00F4EFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150C49452BDDC87900F4EFF1 /* ConcertConnect */;
+			targetProxy = 150C49572BDDC87D00F4EFF1 /* PBXContainerItemProxy */;
+		};
+		150C49622BDDC87D00F4EFF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150C49452BDDC87900F4EFF1 /* ConcertConnect */;
+			targetProxy = 150C49612BDDC87D00F4EFF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		150C49682BDDC87D00F4EFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150C49692BDDC87D00F4EFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150C496B2BDDC87D00F4EFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConcertConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = D4788RQH2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConcertConnect/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ConcertConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150C496C2BDDC87D00F4EFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ConcertConnect/Preview Content\"";
+				DEVELOPMENT_TEAM = D4788RQH2Y;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ConcertConnect/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ConcertConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		150C496E2BDDC87D00F4EFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ConcertConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConcertConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConcertConnect";
+			};
+			name = Debug;
+		};
+		150C496F2BDDC87D00F4EFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ConcertConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConcertConnect.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ConcertConnect";
+			};
+			name = Release;
+		};
+		150C49712BDDC87D00F4EFF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ConcertConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConcertConnect;
+			};
+			name = Debug;
+		};
+		150C49722BDDC87D00F4EFF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.ConcertConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ConcertConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150C49412BDDC87900F4EFF1 /* Build configuration list for PBXProject "ConcertConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C49682BDDC87D00F4EFF1 /* Debug */,
+				150C49692BDDC87D00F4EFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150C496A2BDDC87D00F4EFF1 /* Build configuration list for PBXNativeTarget "ConcertConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C496B2BDDC87D00F4EFF1 /* Debug */,
+				150C496C2BDDC87D00F4EFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150C496D2BDDC87D00F4EFF1 /* Build configuration list for PBXNativeTarget "ConcertConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C496E2BDDC87D00F4EFF1 /* Debug */,
+				150C496F2BDDC87D00F4EFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150C49702BDDC87D00F4EFF1 /* Build configuration list for PBXNativeTarget "ConcertConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150C49712BDDC87D00F4EFF1 /* Debug */,
+				150C49722BDDC87D00F4EFF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		150C499B2BE1F0B300F4EFF1 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.4.0;
+			};
+		};
+		150C49A62BE2021D00F4EFF1 /* XCRemoteSwiftPackageReference "ios-places-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-places-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		150C499C2BE1F0B300F4EFF1 /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 150C499B2BE1F0B300F4EFF1 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+		150C499E2BE1F0B300F4EFF1 /* GoogleMapsBase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 150C499B2BE1F0B300F4EFF1 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsBase;
+		};
+		150C49A02BE1F0B300F4EFF1 /* GoogleMapsCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 150C499B2BE1F0B300F4EFF1 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMapsCore;
+		};
+		150C49A72BE207A300F4EFF1 /* GooglePlaces */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 150C49A62BE2021D00F4EFF1 /* XCRemoteSwiftPackageReference "ios-places-sdk" */;
+			productName = GooglePlaces;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 150C493E2BDDC87900F4EFF1 /* Project object */;
+}
