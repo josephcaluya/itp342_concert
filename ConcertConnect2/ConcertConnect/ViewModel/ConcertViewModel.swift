@@ -15,7 +15,7 @@ class ConcertViewModel : ObservableObject {
     func fetch(term: String) async {
         // make sure search is valid and add it to url as a parameter
         let search = term.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
-        let url = URL(string: "\(BASE_URL)?apikey=\(ACCESS_KEY)&keyword=\(search)&size=10")!
+        let url = URL(string: "\(BASE_URL)?apikey=\(ACCESS_KEY)&keyword=\(search)&size=20")!
         isLoading = true
         do {
             let (data, _) = try await URLSession.shared.data(from: url)

@@ -15,7 +15,7 @@ struct MapPage: UIViewRepresentable {
     @Binding var selectedPlace: GMSPlace?
     
     func makeUIView(context: Context) -> GMSMapView {
-        GMSServices.provideAPIKey("AIzaSyDgsGeR6xYNCSiChs2jpz8hxEvMIL8Co5c")
+        GMSServices.provideAPIKey("AIzaSyBx-QANWFi-CBRMW2kUM8p04BJ3tS_GB7o")
         let options = GMSMapViewOptions()
         options.camera = GMSCameraPosition.camera(withLatitude: 37.7749, longitude: -122.4194, zoom: 12.0)
         let mapView = GMSMapView(options: options)
@@ -71,7 +71,7 @@ struct MapAutoComplete: UIViewControllerRepresentable {
     @Binding var showAutoComplete: Bool
     
     func makeUIViewController(context: Context) -> UIViewController {
-        GMSPlacesClient.provideAPIKey("AIzaSyDgsGeR6xYNCSiChs2jpz8hxEvMIL8Co5c")
+        GMSPlacesClient.provideAPIKey("AIzaSyBx-QANWFi-CBRMW2kUM8p04BJ3tS_GB7o")
         let autocompleteController = GMSAutocompleteViewController()
         autocompleteController.delegate = context.coordinator
         let filter = GMSAutocompleteFilter()
